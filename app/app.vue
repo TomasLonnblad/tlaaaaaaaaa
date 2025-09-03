@@ -1,23 +1,8 @@
 
 
-
-<script setup lang="ts">
-const page = ref()
-
-function logFoo () {
-  page.value.pageRef.foo()
-}
-</script>
-
 <template>
-  <NuxtPage ref="page" />
+  <NuxtTime :datetime="Date.now()" />
 </template>
-
-
-
-
-
-
 
 
 

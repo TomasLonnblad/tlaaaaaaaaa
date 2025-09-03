@@ -7,6 +7,13 @@ const version = 2 + 1
 
 
 
+<template>
+  <NuxtLoadingIndicator />
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
+</template>
+
 
 <template>
   <NuxtTime 

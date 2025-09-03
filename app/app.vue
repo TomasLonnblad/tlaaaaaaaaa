@@ -7,14 +7,21 @@ const version = 2 + 1
 
 
 
+
+
 <template>
-  <NuxtLoadingIndicator />
-  <NuxtLayout>
-    <NuxtPage />
-  </NuxtLayout>
+  <button @click="open = true">
+    Open Modal
+  </button>
+  <Teleport to="#teleports">
+    <div v-if="open" class="modal">
+      <p>Hello from the modal!</p>
+      <button @click="open = false">
+        Close
+      </button>
+    </div>
+  </Teleport>
 </template>
-
-
 
 
 

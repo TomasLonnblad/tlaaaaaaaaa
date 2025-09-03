@@ -5,11 +5,15 @@
 
 
   
-<NuxtLink to="/example-report.pdf" external>
-    Download Report
+<NuxtLink to="/another-app" external>
+    Go to Another App
   </NuxtLink>
 
 
+
+
+
+    
     
     
   </div>

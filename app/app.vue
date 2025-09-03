@@ -15,20 +15,6 @@ const version = 2 + 1
 </template>
 
 
-<template>
-  <NuxtTime 
-    :datetime="Date.now()" 
-    weekday="long"
-    year="numeric"
-    month="short"
-    day="numeric"
-    hour="numeric"
-    minute="numeric"
-    second="numeric"
-    timeZoneName="short"
-  />
-</template>
-
 
 
 

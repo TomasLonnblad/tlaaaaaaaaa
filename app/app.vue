@@ -1,10 +1,17 @@
 
 
+
+<script setup lang="ts">
+const version = 2 + 1
+</script>
+
+
+
 <template>
   <NuxtTime :datetime="Date.now()" />
+  <NuxtTime :datetime="new Date()" />
+  <NuxtTime datetime="2023-06-15T09:30:00.000Z" />
 </template>
-
-
 
 
 <style scoped>

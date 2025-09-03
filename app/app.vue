@@ -9,6 +9,9 @@ const version = 2 + 1
 
 
 
+
+
+
 <template>
   <button @click="open = true">
     Open Modal
@@ -22,8 +25,6 @@ const version = 2 + 1
     </div>
   </Teleport>
 </template>
-
-
 
 
 

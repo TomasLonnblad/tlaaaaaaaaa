@@ -5,12 +5,11 @@
 
 
   
-<NuxtLink to="/another-app" external>
-    Go to Another App
+
+<NuxtLink to="https://nuxtjs.org">
+    Nuxt website
   </NuxtLink>
-
-
-
+  <!-- <a href="https://nuxtjs.org" rel="noopener
 
 
     

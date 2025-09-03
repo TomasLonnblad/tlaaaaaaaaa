@@ -1,11 +1,11 @@
 <template>
   <div>
     Go to
-    <NuxtLink
-      class="underline"
-      to="/test"
-    >
-      Test Page
-    </NuxtLink>
+    
+
+
+
+<NuxtLink to="/about">About page</NuxtLink>
+    
   </div>
 </template>

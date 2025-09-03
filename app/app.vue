@@ -8,9 +8,18 @@ const version = 2 + 1
 
 
 <template>
-  <NuxtTime :datetime="Date.now()" />
-  <NuxtTime :datetime="new Date()" />
-  <NuxtTime datetime="2023-06-15T09:30:00.000Z" />
+  <NuxtLink to="https://twitter.com/nuxt_js">
+    Nuxt Twitter
+  </NuxtLink>
+  <!-- <a href="https://twitter.com/nuxt_js" rel="noopener noreferrer">...</a> -->
+
+  <NuxtLink to="https://discord.nuxtjs.org" rel="noopener">
+    Nuxt Discord
+  </NuxtLink>
+  <!-- <a href="https://discord.nuxtjs.org" rel="noopener">...</a> -->
+
+  <NuxtLink to="/about" target="_blank">About page</NuxtLink>
+  <!-- <a href="/about" target="_blank" rel="noopener noreferrer">...</a> -->
 </template>
 
 

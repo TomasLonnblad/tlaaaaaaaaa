@@ -4,10 +4,10 @@
     
 
 
-  <NuxtLink :to="{ name: 'posts-id', params: { id: 123 } }">
-    Post 123
+  
+<NuxtLink to="/example-report.pdf" external>
+    Download Report
   </NuxtLink>
-
 
 
     

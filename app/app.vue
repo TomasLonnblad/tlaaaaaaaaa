@@ -5,11 +5,18 @@
 const version = 2 + 1
 </script>
 
+
+
+
+
 <template>
-  <div class="hello">
-    Hello Nuxt {{ version }} and Tomas with extended module!
-  </div>
+  <NuxtLink to="https://nuxtjs.org">
+    Nuxt website
+  </NuxtLink>
+  <!-- <a href="https://nuxtjs.org" rel="noopener noreferrer">...</a> -->
 </template>
+
+
 
 <style scoped>
 .hello {

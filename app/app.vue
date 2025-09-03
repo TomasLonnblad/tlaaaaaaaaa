@@ -7,6 +7,13 @@ const version = 2 + 1
 
 
 
+<template>
+  <div class="hello">
+    Hello Nuxt {{ version }} and Tomas with extended module!
+  </div>
+</template>
+
+
 
 
 <template>
